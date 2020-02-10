@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    width: 400px;
+    height: 60px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-color: #151524;
+    background-position: center;
+
+}
+
+h1 span {
+    visibility: hidden;
+}
+
+#container {
+    display: flex;
+}
+
+#topo {
+    width: 100%;
+    height: 60px;
+    background-color: #242536;
+}
+
+#topo h4 {
+    width: 30px;
+    height: 25px;
+    background-color: #37cb5f;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: 400;
+    border-radius: 25px;
+    position: relative;
+    left: 90%;
+    top: 10px;
+}
+
+
+#menu {
+    width: 330px;
+    height: 1030px;
+    background-color: #242536;
+
+}
+
+#menu nav li {
+    height: 25px;
+    padding: 20px;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+#menu nav ul li:hover {
+    background-color: #151524;
+    border-left: 5px solid #ffb946;
+}
+
+#menu nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+#menu nav ul li .numero {
+    float: right;
+    color: #a1a1a7;
+}
+
+#menu nav ul li .texto {
+    padding: 20px;
+
+}
+
+#conta {
+    width: 82.5%;
+    height: 61px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 60px;
+    left: 330px;
+}
+
+#campanha {
+
+    padding-left: 50px;
+    padding-top: 30px;
+    word-spacing: 50px;
+
+}
+
+#campanha span {
+    padding-bottom: 13px;
+    color: #161616;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+
+#campanha span:hover {
+    color: #ffb946;
+    border-bottom: 3px solid #ffb946;
+}
+
+
+#body {
+    position: absolute;
+    left: 330px;
+    top: 124px;
+    width: 1490px;
+    height: 90%;
+    border: 20px solid #f5f5f5;
+}
+
+#body,
+#corpo {
+    padding: 20px;
+}
+
+#loren,
+.green1 {
+    position: relative;
+    left: 420px;
+    top: 30px;
+}
+
+#loren,
+.green2 {
+    position: relative;
+    left: 420px;
+    bottom: 50px;
+
+}
+
+
+
+#lorem, #email {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+#lorem input {
+    padding-left: 15px;
+}
+#lorem, h2 {
+    padding-top: 10px;
+}
+
+
+h5 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.form input {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+select, option  {
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#verificado img {
+    width: 16px;
+    height: 16px;
+    background-color: #37cb5f;
+    size: 10px;
+}
+
+
+#coisa, h2 {
+    color: #161616;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+     margin-bottom: 15px;
+}
+
+#coisa, span {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+
+#verificado span {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    padding: 10px;
+
+}
+
+#verificado p {
+    padding-left: 25px;
+}
+
+#botao {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #3aca60;
+    border-radius: 4px;
+    background-color: #3aca60;
+    margin-top: 50px;
+
+
+}
+
+#botao h3 {
+    text-align: center;
+    padding-top: 9px;
+    color: #ffffff;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#botao,
+p {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    padding: 5px;
+
+}

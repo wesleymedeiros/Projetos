@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'extrabold';
+    src: url("./fontes/muli-extrabold-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'extralightitalic';
+    src: url("./fontes/muli-extralight-italic-webfont.ttf");
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url("./fontes/muli-regular-webfont.ttf");
+}
+
+html {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    font-family: 'regular';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+    font-family: 'extrabold';
+    color: #5e5f5f;
+}
+
+header span {
+    color: #4a4a4a;
+    opacity: 0.5;
+    margin-left: 12px;
+    font-family: 'regular';
+    font-weight: 400;
+    
+}
+
+header span strong {
+    font-family: 'extrabold';
+    font-weight: 700;
+    
+}
+
+header a {
+    font-family: 'regular';
+    font-size: 18px;
+    padding-left: 5px;
+    text-decoration: none;
+    color: #d4d4d4;
+    background-image: url(X.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+header a span {
+    visibility: hidden;
+}
+
+#pagamento {
+    width: 55%;
+    height: 100%;
+}
+
+#pagamento h1 {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    color: #777879;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#principal #pagamento ul {
+    display: flex;
+    justify-content: center;
+}
+
+#principal {
+    display: flex;
+    width: 686px;
+    height: 558px;
+    background-color: #ffffff;
+}
+
+#principal #pagamento li {
+    list-style: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+#principal #pagamento li:hover {
+    background-color: #f5f9fd;
+    box-shadow: insert 0 0 2px #d1e2f6;
+    border-radius: 4px;
+}
+
+#principal #pagamento small {
+    display: block;
+    margin-top: 5px;
+}
+
+#principal #pagamento a {
+    text-decoration: none;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+#principal #novo {
+    border: none;
+    text-align: center;
+}
+
+#principal #novo legend {
+    font-size: 16px;
+    color: #777879;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #eaeaea;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+#principal #novo input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    font-family: 'regular';
+    font-size: 14px;
+    font-weight: 400;
+    color: #c4cbd0;
+    
+}
+
+#principal #novo input.data {
+    width: 149px;
+    margin-right: 10px;
+}
+
+#principal #novo input.cvc {
+    width: 86px;
+}
+
+#principal #novo input::-webkit-input-placeholder {
+    color: #c4cbd0;
+    font-size: 14px;
+}
+#principal #novo #checkbox {
+    display: flex;
+    width: 10px;
+    height: 15px;
+    border: 1px solid #e5e6e8;
+    margin-left: 40px;
+    -webkit-appearance: none;
+    
+}
+
+#principal #novo h2  {
+    margin: 0;
+    padding: 0;
+    color: #777879;
+    position: relative;
+    top: -35px;
+    right: 58px;
+    font-family: 'regular';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#principal #novo button {
+    width: 289px;
+    padding: 15px;
+    background-color: #84d654;
+    font-size: 16px;
+    font-family: 'extrabold';
+    font-weight: 700;    
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#principal #novo label {
+    display: flex;
+    margin-left: 35px;
+    color: #777879;
+    font-size: 14px;
+}
+
+#principal #novo label input {
+    width: 20px;
+    height: 20px;
+}
+
+#produto {
+    width: 45%;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-left: 1px solid #dddcde;
+}
+
+#produto li {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#produto .resumos li {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #dddcde;
+}
+
+#produto .resumos li:last-child {
+    border: none;
+}
+
+#produto .resumos img {
+    width: 42px;
+    height: 35px;
+}
+
+#produto .resumos h3 {
+    width: 100%;
+    font-size: 12px;
+    font-family: 'extrabold';
+    font-weight: 700;
+    color: #777879;
+    padding-left: 10px;
+}
+
+#produto .resumos .preco {
+    font-size: 12px;
+    font-family: 'extrabold';
+    font-weight: 700;
+    color: #777879;
+}
+
+#produto .resumos small {
+    font-size: 10px;
+    font-family: 'extralightitalic';
+    font-weight: 200;
+    color: #4a4a4a;
+    padding-left: 10px;
+    opacity: 1.0;
+}
+
+#produto .resumos span {
+    font-size: 10px;
+    font-family: 'extrabold';
+    font-weight: 700;
+    color: #9c9c9c;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+#produto .resumos .detalhes {
+    width: 85%;
+    margin-bottom: 3px;
+}
+
+#produto table {
+    Width: 100%;
+    border-top: 1px solid #d6d4d7;
+    border-spacing: 0;
+    color: #777879;
+    font-size: 12px;
+    margin-top: 120px;
+}
+
+#produto table th {
+    text-align: left;
+}
+
+#produto table td {
+    text-align: right;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#produto table tfoot * {
+    border-top: 1px solid #d5d3d6;
+    font-family: 'extrabold';
+    padding-top: 7px;
+}

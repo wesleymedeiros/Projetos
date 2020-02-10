@@ -1,0 +1,44 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    background-color: #4a4a4a;
+    padding: 90px;
+    margin: 1px;
+}
+
+a  {
+    background-image: url(arrow-right---336-.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-right: 75%;   
+    padding-left: 3%;
+}
+.ul, .li, .feito {
+    background-color: #27ae60;
+}  
+
+.ul, .li, .feito:hover {
+    background-color: #52be7f;
+    
+}  
+.ul, .li, .fazer:hover  {
+    background-color: #6e6e6e;
+    
+    
+
+
+
+ 
+    
+    
+

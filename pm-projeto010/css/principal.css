@@ -1,0 +1,127 @@
+
+
+
+
+article {
+    background-color: #ffffff;
+    padding-left: 60px !important;
+}
+article p {
+    font-family: 'lato',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+
+
+.resumo span {
+    padding-left: 15px;
+    font-weight: 900;
+    font-family: 'lato', sans-serif;
+}
+.resumo i {
+
+    font-weight: 400;
+}
+.resumo, span i {
+    width: 800px;
+    padding-bottom: 5px;
+    color: #d0021b;
+    font-size: 20px;
+    border-bottom: 1px solid #d0021b;
+}
+.resumo, p {
+    padding-top: 70px;
+}
+
+
+
+
+#formacao {
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    
+}
+#formacao span {
+    padding-left: 15px;
+    font-weight: 900;
+    font-family: 'lato', sans-serif;
+}
+#formacao i {
+    font-weight: 400;
+}
+#formacao, span i {
+    width: 800px;
+    padding-bottom: 5px;
+    color: #d0021b;
+    font-size: 20px;
+    border-bottom: 1px solid #d0021b;
+}
+#formacao p {
+    text-align: left;
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    color: #666666;
+    font-size: 17px;
+}
+#exper {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#exper  h2 {
+    padding-top: 50px;
+    color: #4a4a4a;
+    font-family: 'lato', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+#exper h3 {
+
+    color: #4a4a4a;
+    font-family: 'lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+#exper p {
+    position: relative;
+    left: 190px;
+    bottom: 94px;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

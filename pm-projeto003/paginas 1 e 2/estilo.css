@@ -1,0 +1,31 @@
+body {
+}
+    
+.assunto {
+    color: black;
+    font-family: verdana;
+     }
+
+.origem {
+    font-family: verdana;
+    color: black;
+    
+}
+
+.quando {
+    color: gray;
+}
+
+.noticia  img {
+    
+    width: 100%;
+}
+
+.texto h2 {
+    
+    font-family: verdana;
+}
+    
+    
+    
+    
